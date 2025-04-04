@@ -16,5 +16,6 @@ public class SweetShop {
             System.err.println("Sweet instance is null");
         }
         System.out.println("Shop Name: " + this.shopName);
+        System.out.println(this.sweet);
     }
 }
