@@ -1,10 +1,11 @@
-package assignment;
+package com.HundredExample.assignment.runner;
+
+import com.HundredExample.assignment.internal.*;
 
 public class TeaShop {
 
     public void debit(Account account) {
         if (account != null) {
-            account.credentials();
 
             if (account instanceof Account1) {
                 Account1 account1 = (Account1) account;
@@ -15,7 +16,7 @@ public class TeaShop {
             } else if (account instanceof Account3) {
                 Account3 account3 = (Account3) account;
                 account3.uniqueMethod3();
-            } else if (account instanceof Account4) {
+            } else if (account instanceof Account54) {
                 Account4 account4 = (Account4) account;
                 account4.uniqueMethod4();
             } else if (account instanceof Account5) {
@@ -100,14 +101,14 @@ public class TeaShop {
                 Account31 account31 = (Account31) account;
                 account31.uniqueMethod31();
             } else if (account instanceof Account32) {
-                Account32 account32 = (Account32) account;
-                account32.uniqueMethod32();
-            } else if (account instanceof Account33) {
-                Account33 account33 = (Account33) account;
-                account33.uniqueMethod33();
-            } else if (account instanceof Account34) {
-                Account34 account34 = (Account34) account;
-                account34.uniqueMethod34();
+                //Account32 account32 = (Account32) account;
+                //account32.uniqueMethod32();
+            //} else if (account instanceof Account33) {
+                //Account33 account33 = (Account33) account;
+                //account33.uniqueMethod33();
+            //}else if (account instanceof Account34) {
+              //  Account34 account34 = (Account34) account;
+                //account34.uniqueMethod34();
             } else if (account instanceof Account35) {
                 Account35 account35 = (Account35) account;
                 account35.uniqueMethod35();
